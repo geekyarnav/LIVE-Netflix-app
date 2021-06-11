@@ -1,0 +1,17 @@
+
+.footer {
+    background-color: #111;
+    padding-top: 15rem;
+    padding-bottom: 4rem;
+    display:flex;
+    text-align: center;
+    padding-top: 10rem;
+}
+.footer__copyright{
+color:white;
+}
+.footer__copyright--link {
+       color: #fff;
+       font-size: 1.8rem;
+       
+}

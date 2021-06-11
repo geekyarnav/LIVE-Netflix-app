@@ -1,0 +1,38 @@
+.lane{
+    margin-left:20px;
+    color:white;
+}
+.lane-thumbnails{
+    display: flex;
+    /* Scrolling X-axis*/
+    overflow-y: hidden;
+    overflow-x: scroll;
+     /* Scrolling X-axis*/
+     padding: 20px;
+}
+/* Keep d functionality of scroll But dont show scrollbar */
+.lane-thumbnails::-webkit-scrollbar{
+    display:none;
+
+}
+/* Keep d functionality of scroll But dont show scrollbar */
+
+.lane-thumbnail{
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    /* Animation hover effect */
+    transition: transform 450ms;
+}
+.lane-thumbnail:hover{
+    transform: scale(1.08);
+    /* Animation hover effect */
+}
+.lane-thumbnailLarge{
+    max-height:250px
+
+}
+.lane-thumbnailLarge :hover{
+    transform: scale(1.09);
+}
